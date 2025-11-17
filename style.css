@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+body {
+  background-color: rgba(255, 255, 255, 1) !important;
+  margin: 0% !important;
+  padding: 0;
+}
+.hero {
+  background: transparent;
+  background-image: url(Images/home/hero.png);
+  padding: 3rem 1rem;
+}
+.f-banner {
+  background: rgba(73, 85, 103, 1) !important;
+  padding: 3rem 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+@media (min-width: 992px) {
+  .f-banner {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    text-align: left !important;
+  }
+}
+ul a li:hover {
+  color: rgba(252, 183, 43, 1);
+}
+footer {
+  background: rgba(51, 58, 68, 1);
+  padding: 2rem 1rem;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+hero::after {
+  background-color: rgba(147, 156, 170, 1) !important;
+}
+/* colors */
+.C1 {
+  background-color: rgba(252, 183, 43, 1) !important;
+}
+.C2 {
+  background-color: rgba(73, 85, 103, 1) !important;
+}
+.C3 {
+  background-color: rgba(147, 156, 170, 1) !important;
+}
+.C4 {
+  background-color: rgba(229, 236, 244, 1) !important;
+}
+.C5 {
+  background-color: rgba(242, 245, 249, 1) !important;
+}
+.C6 {
+  background-color: rgba(255, 244, 223, 1) !important;
+}
+.C7 {
+  background-color: white !important;
+}
+.C8 {
+  background-color: rgba(51, 58, 68, 1) !important;
+}
+
+C3:hover {
+  background-color: transparent !important;
+  color: none !important;
+  color: rgba(252, 183, 43, 1) !important;
+}
+/* text Global Class */
+
+.text-none {
+  text-decoration: none;
+}
+.text-color1 {
+  color: rgba(147, 156, 170, 1);
+}
+.text-white {
+  color: white !important;
+}
+/* display class */
+.d-flex {
+  display: flex;
+}
+.d-none {
+  display: none !important;
+}
+.d-inline {
+  display: inline;
+}
+/* image size */
+
+/* font size */
+
+.f-15 {
+  font-size: 15px;
+}
+
+.f-25 {
+  font-size: 25px !important;
+}
+
+.f-50 {
+  font-size: 50px;
+}
+.f-56 {
+  font-size: 56px !important;
+}
+.f-60 {
+  font-size: 60px;
+}
+
+.f-100 {
+  font-size: 100px;
+}
+/* font family */
+.f-ms {
+  font-family: monospace !important;
+}
+.f-l {
+  font-family: "Lexend Deca" !important;
+}
+/* gap */
+.gap-10 {
+  gap: 10% !important;
+}
+.gap-15 {
+  gap: 15% !important;
+}
+
+.gap-25 {
+  gap: 25% !important;
+}
+
+.gap-50 {
+  gap: 50% !important;
+}
+.gap-56 {
+  gap: 56% !important;
+}
+.gap-60 {
+  gap: 60% !important;
+}
+
+.g-100 {
+  gap: 100% !important;
+}
+/* color classes */
+.bg-color {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* align classes */
+.align-center {
+  align-items: center;
+}
+.align-FE {
+  align-items: flex-end;
+}
+.align-FS {
+  align-items: flex-start;
+}
+
+/* justify */
+
+.justify-center {
+  justify-content: center;
+}
+.justify-SB {
+  justify-content: space-between;
+}
+.justify-SA {
+  justify-content: space-around;
+}
+.justify-even {
+  justify-content: space-evenly;
+}
+/* width */
+.w-0 {
+  width: 0px !important;
+}
+.w-25 {
+  width: 25px !important;
+}
+.w-30 {
+  width: 30px !important;
+}
+.w-35 {
+  width: 35px !important;
+}
+.w-40 {
+  width: 40px !important;
+}
+.w-50 {
+  width: 50px !important;
+}
+.w-60 {
+  width: 60px !important;
+}
+.w-75 {
+  width: 75% !important;
+}
+.w-100 {
+  width: 100px !important;
+}
+.w-107 {
+  width: 107px !important;
+}
+.w-1200 {
+  width: 1200px !important;
+}
+
+/* hight */
+.h-0 {
+  height: 0px !important;
+}
+.h-25 {
+  height: 25px !important;
+}
+.h-35 {
+  height: 35px !important;
+}
+.h-50 {
+  height: 50px !important ;
+}
+.h-69 {
+  height: 60px !important;
+}
+.h-75 {
+  height: 75px !important;
+}
+.h-100 {
+  height: 100px !important;
+}
+
+/* list style */
+.list-n {
+  list-style: none;
+}
+.text-d {
+  text-decoration: none;
+  color: rgba(147, 156, 170, 1);
+  font-family: monospace;
+}
+/* padding */
+.padding-0 {
+  padding: 0px;
+}
+.padding-15 {
+  padding: 15px;
+}
+.padding-30 {
+  padding: 30px;
+}
+.padding-50 {
+  padding: 50px;
+}
+.padding-75 {
+  padding: 75px;
+}
+.padding-100 {
+  padding: 100px;
+}
+/* p-left */
+.padding-l-0 {
+  padding-left: 0px;
+}
+.padding-l-15 {
+  padding-left: 15px;
+}
+.padding-l-30 {
+  padding-left: 30px;
+}
+.padding-l-50 {
+  padding-left: 50px;
+}
+.padding-l-75 {
+  padding-left: 75px;
+}
+.padding-l-100 {
+  padding-left: 100px;
+}
+/* p-right */
+.padding-r-0 {
+  padding-right: 0px;
+}
+.padding-r-15 {
+  padding-right: 15px;
+}
+.padding-r-30 {
+  padding-right: 30px;
+}
+.padding-r-50 {
+  padding-right: 50px;
+}
+.padding-r-75 {
+  padding-right: 75px;
+}
+.padding-r-100 {
+  padding-right: 100px;
+}
+/* p-top */
+.padding-t-0 {
+  padding-top: 0px;
+}
+.padding-t-15 {
+  padding-top: 15px;
+}
+.padding-t-30 {
+  padding-top: 30px;
+}
+.padding-t-50 {
+  padding-top: 50px;
+}
+.padding-t-75 {
+  padding-top: 75px;
+}
+.padding-t-100 {
+  padding-top: 100px;
+}
+/* p-bottom */
+.padding-b-0 {
+  padding-bottom: 0px;
+}
+.padding-b-15 {
+  padding-bottom: 15px;
+}
+.padding-b-30 {
+  padding-bottom: 30;
+}
+.padding-b-50 {
+  padding-bottom: 50px;
+}
+.padding-b-75 {
+  padding-bottom: 75px;
+}
+.padding-b-100 {
+  padding-bottom: 100px;
+}
+
+/* margin */
+.m-0 {
+  margin: 0% !important;
+}
+.m-15 {
+  margin: 15% !important;
+}
+.m-25 {
+  margin: 25% !important;
+}
+.m-35 {
+  margin: 35% !important;
+}
+.m-50 {
+  margin: 50% !important;
+}
+.m-75 {
+  margin: 75% !important;
+}
+.m-100 {
+  margin: 100% !important;
+}
+/* margin-left */
+
+.ml-0 {
+  margin-left: 0%;
+}
+.ml-10 {
+  margin-left: 10% !important;
+}
+.ml-15 {
+  margin-left: 15% !important;
+}
+.ml-20 {
+  margin-left: 20% !important;
+}
+.ml-25 {
+  margin-left: 25% !important;
+}
+.ml-35 {
+  margin-left: 35% !important;
+}
+.ml-50 {
+  margin-left: 50% !important;
+}
+.ml-75 {
+  margin-left: 75% !important;
+}
+.ml-100 {
+  margin-left: 100% !important;
+}
+/* margin-right */
+.mr-0 {
+  margin-right: 0% !important;
+}
+
+.mr-10 {
+  margin-right: 10% !important;
+}
+.mr-15 {
+  margin-right: 15% !important;
+}
+.m-20 {
+  margin-right: 20% !important;
+}
+.mr-25 {
+  margin-right: 25% !important;
+}
+.mr-35 {
+  margin-right: 35% !important;
+}
+.mr-50 {
+  margin-right: 50% !important;
+}
+.mr-75 {
+  margin-right: 75% !important;
+}
+.mr-100 {
+  margin-right: 100% !important;
+}
+/* m-top */
+.mt-0 {
+  margin-top: 0% !important;
+}
+.mt-25 {
+  margin-top: 25% !important;
+}
+.mt-50 {
+  margin-top: 50% !important;
+}
+.mt-75 {
+  margin-top: 75% !important;
+}
+.mt-100 {
+  margin-top: 100% !important;
+}
+/* m-left */
+.ml-0 {
+  margin-left: 0% !important;
+}
+.ml-10 {
+  margin-left: 10% !important;
+}
+.ml-25 {
+  margin-left: 25% !important;
+}
+.ml-50 {
+  margin-left: 50% !important;
+}
+.ml-75 {
+  margin-left: 75% !important;
+}
+.ml-100 {
+  margin-left: 100% !important;
+}
+/* m-right */
+.mr-0 {
+  margin-right: 0% !important;
+}
+.mr-25 {
+  margin-right: 25% !important;
+}
+.mr-50 {
+  margin-right: 50% !important;
+}
+.mr-75 {
+  margin-right: 75% !important;
+}
+.mr-100 {
+  margin-right: 100% !important;
+}
+/* m-bottom */
+.mb-0 {
+  margin-bottom: 0% !important;
+}
+.mb-25 {
+  margin-bottom: 25% !important;
+}
+.mb-50 {
+  margin-bottom: 50% !important;
+}
+.mb-75 {
+  margin-bottom: 75% !important;
+}
+.mb-100 {
+  margin-bottom: 100% !important;
+}
+
+/* border */
+
+.border-10 {
+  border: 0.5px solid black;
+}
+.border-15 {
+  border: 15px;
+}
+.border-30 {
+  border: 30px;
+}
+.border-50 {
+  border: 50% solid yellowgreen !important;
+}
+.border-70 {
+  border: 70px;
+}
+
+.br-15 {
+  border-radius: 15px;
+}
+.br-25 {
+  border-radius: 25px;
+}
+.br-50 {
+  border-radius: 50% solid yellowgreen !important;
+}
+.br-75 {
+  border-radius: 75px;
+}
+.br-85 {
+  border-radius: 85px;
+}
+.br-100 {
+  border-radius: 100px;
+}
+/* Button */
+.btn {
+  text-align: center !important;
+  padding: 15px !important;
+  padding-top: 10px !important;
+  border: 2px solid black !important;
+  font-weight: 700 !important;
+  font-family: monospace;
+  background-color: rgba(252, 183, 43, 1) !important;
+  color: white !important;
+}
+.f-banner {
+  background-image: url(Images/about/footer.png);
+  position: static;
+}
+button:hover {
+  background-color: transparent !important;
+  color: none !important;
+  color: rgba(252, 183, 43, 1) !important;
+}
+#career {
+  gap: 30px !important;
+}
+career:hover {
+  background-color: transparent !important;
+  color: rgba(255, 244, 223, 1) !important;
+}
