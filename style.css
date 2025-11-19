@@ -120,7 +120,7 @@ C3:hover {
 }
 /* font family */
 .f-ms {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+  font-family: "monospace", Arial, sans-serif !important;
 }
 .f-l {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
